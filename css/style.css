@@ -300,7 +300,7 @@ p {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(img/bubble-clean-clear-close-up-339119.jpg);
+  background: url(img/bg-3.jpg);
   background-size: cover;
   background-position: right bottom;
   margin: 10px 5%;
