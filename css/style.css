@@ -578,9 +578,6 @@ p {
 #footer .social-item a .fa-facebook::before {
   background-image: linear-gradient(135deg, #3b5998 30%, #0a3d62 50%);
 }
-#footer .social-item a .fa-viber::before {
-  background-image: linear-gradient(135deg, #662c8d 30%, #0a3d62 50%);
-}
 #footer .social-item a .fa-instagram::before {
   background-image: linear-gradient(
     135deg,
