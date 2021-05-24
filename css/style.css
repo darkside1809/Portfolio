@@ -53,7 +53,7 @@ p {
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  margin-top: 30px;
+  margin-top: 10px;
   transition: 0.3s ease background-color;
   transition-property: background-color, color;
 }
@@ -442,7 +442,7 @@ p {
 }
 #about .col-right .cta {
   color: #000;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding: 10px 20px;
   font-size: 2rem;
 }
@@ -533,7 +533,7 @@ p {
 }
 #footer .social-icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 30px;
 }
 #footer .social-item {
@@ -591,6 +591,12 @@ p {
 }
 #footer .social-item a .fa-telegram::before {
   background-image: linear-gradient(135deg, rgb(46, 137, 202) 30%, #0a3d62 50%);
+}
+#footer .social-item a .fa-github::before {
+  background-image: linear-gradient(135deg, rgb(61, 64, 66) 30%, #0a3d62 50%);
+}
+#footer .social-item a .fa-linkedin-in::before {
+  background-image: linear-gradient(135deg, rgb(6, 70, 153) 30%, #0a3d62 50%);
 }
 #footer p {
   color: #fff;
