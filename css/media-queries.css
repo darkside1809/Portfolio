@@ -7,45 +7,13 @@
   h1 .section-title {
     font-size: 6rem;
   }
-  #hero h1 {
-    font-size: 7rem;
-  }
-  #services .service-bottom .service-item {
-    flex-basis: 45%;
-    margin: 2.5%;
-  }
-  #projects .project-item:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-  #projects .project-item {
-    flex-direction: row;
-  }
-  #projects .project-item {
-    height: 400px;
-    margin: 0;
-    width: 100%;
-    border-radius: 0;
-  }
-  #projects .all-projects .project-info {
-    height: 100%;
-  }
-  #projects .all-projects .project-img {
-    height: 100%;
-  }
   #about .about {
-    flex-direction: row;
+    flex-direction: col;
   }
   #about .col-left {
     height: 50%;
     width: 50%;
     padding-left: 60px;
-  }
-  #about .about .col-left .about-img::after {
-    left: -45px;
-    top: 34px;
-    height: 98%;
-    width: 98%;
-    border: 10px solid crimson;
   }
   #about .col-right {
     text-align: left;
@@ -54,33 +22,7 @@
   #about .col-right h1 {
     text-align: left;
   }
-  #contact .contact {
-    flex-direction: column;
-    padding: 100px 0;
-    align-items: center;
-    justify-content: center;
-    min-width: 20vh;
-  }
-  #contact .contact-items {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 20px;
-  }
-  #contact .contact-item {
-    margin: 20px;
-    flex-direction: row;
-  }
-  #contact .contact-item .icon i {
-    font-size: 4em;
-  }
-  #contact .contact-item {
-    width: 100%;
-    text-align: left;
-    padding-left: 20px;
-  }
+
 }
 @media only screen and (min-width: 1200px) {
   #header .menu {
@@ -105,5 +47,12 @@
   #services .service-bottom .service-item {
     flex-basis: 22%;
     margin: 1.5%;
+  }
+}
+@media only screen and (max-width:768px) {
+  .container {
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
