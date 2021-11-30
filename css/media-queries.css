@@ -55,4 +55,10 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
+  #about .about-img {
+    max-width: 95%;
+  }
+  .section-title {
+    margin-top: 3rem;
+  }
 }
